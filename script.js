@@ -4,5 +4,7 @@ function updateTime() {
     timeElement.textContent = Date.now();
   }
 }
+
+// Update time once at render and every 1 second
 updateTime();
 setInterval(updateTime, 1000);
