@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <article data-testid="test-profile-card" class="profile-card">
+    <figure class="avatar-section">
+      <img src="images/WhatsApp Image 2025-10-18 at 9.58.46 PM.jpeg" 
+           alt="User Avatar" 
+           data-testid="test-user-avatar"
+           class="avatar">
+    </figure>
+
+    <div class="profile-info">
+      <header>
+        <h2 data-testid="test-user-name">Igboke Chioma Joy</h2>
+      </header>
+      <h3>Chomi's Bio</h3>
+
+      <p data-testid="test-user-bio">
+        A passionate and multifaceted professional whose drive for excellence shines through in every area of  life. A dedicated civil servant with a growing expertise in Administration, data analysis, and also venturing into the exciting world of frontend development, combining analytical precision with creative problem-solving.
+
+<p>Beyond this professional pursuits, I am a skilled food vendor and an exceptional cook, known for the ability to prepare a wide variety of delicious meals. Skills extend to fast and efficient typing for both productive and versatile in any work environment.</p>
+
+I despise poverty, procrastination, and Laziness, and channels my energy toward growth, self-improvement, and productivity. With a heart full of ambition and a mind built for innovation to evolve as a woman of purpose, balance, and impact.
+      </p>
+
+      <p>
+        <strong>Current Time (ms):</strong>
+        <span data-testid="test-user-time" id="current-time"></span>
+      </p>
+
+      <nav aria-label="User social links">
+        <ul data-testid="test-user-social-links" class="social-links">
+          <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+          <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-facebook">Facebook</a></li>
+          <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <h3>Hobbies</h3>
+        <ul data-testid="test-user-hobbies">
+          <li>Reading Books</li>
+          <li>Cooking Food</li>
+          <li>Tech innovation</li>
+          <li>Researching</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Dislikes</h3>
+        <ul data-testid="test-user-dislikes">
+          <li>I despise poverty</li>
+          <li>procrastination</li>
+          <li>Laziness</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+
+  <script src="script.js"></script>
+</body>
+</html>
