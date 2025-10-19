@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <article data-testid="test-profile-card" class="profile-card">
+    <figure class="avatar-section">
+      <img src="images/ea31670a-8aa0-46be-a2ea-7b90604e12c3.jpeg" 
+           alt="User Avatar" 
+           data-testid="test-user-avatar"
+           class="avatar">
+    </figure>
+
+    <div class="profile-info">
+      <header>
+        <h2 data-testid="test-user-name">Igboke Chukwuebuka Fidelis</h2>
+      </header>
+
+      <p data-testid="test-user-bio">Passionate electrical engineer and founder of EL-FIDECH ELECTRICAL, specializing in residential wiring, industrial installations, CCTV and solar systems.
+      delivering reliable power solutions of all kind, and smart installations across Nigeria.
+      </p>
+
+      <p>
+        <strong>Current Time (ms):</strong>
+        <span data-testid="test-user-time" id="current-time"></span>
+      </p>
+
+      <nav aria-label="User social links">
+        <ul data-testid="test-user-social-links" class="social-links">
+          <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+          <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-facebook">Facebook</a></li>
+          <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <h3>Hobbies</h3>
+        <ul data-testid="test-user-hobbies">
+          <li>Reading engineering journals</li>
+          <LI>Electrical Projects</LI>
+          <li>Designing solar systems</li>
+          <li>Tech innovation</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Dislikes</h3>
+        <ul data-testid="test-user-dislikes">
+          <li>Power outages</li>
+          <li>Poor maintenance</li>
+          <li>Unreliable materials</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+
+  <script src="script.js"></script>
+</body>
+</html>
